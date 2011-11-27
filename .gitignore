@@ -1,0 +1,24 @@
+# use glob syntax.
+syntax: glob
+*.class
+*~
+*.bak
+*.old
+
+# logs
+*.log
+
+# eclipse conf file
+.settings/
+.settings
+
+# building
+target
+tmp*
+dist
+
+# other scm
+.svn
+.CVS
+.hg*
+
