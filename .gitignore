@@ -1,24 +1,33 @@
-# use glob syntax.
-syntax: glob
-*.class
+gnore all bin directories
+# matches "bin" in any subfolder
+bin/
+
+# ignore all target directories
+target/
+
+# ignore all files ending with ~
 *~
-*.bak
-*.old
 
-# logs
-*.log
-
-# eclipse conf file
+# ignore eclipse directories and project files
 .settings/
-.settings
+.project
+.classpath
 
-# building
-target
-tmp*
-dist
+# OSX
 
-# other scm
-.svn
-.CVS
-.hg*
+*.DS_Store
+.AppleDouble
+.LSOverride
 
+# Icon must end with two \r
+Icon
+
+
+# Thumbnails
+._*
+
+# IntelliJ
+*.iml
+.idea
+
+*.log
