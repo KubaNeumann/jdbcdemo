@@ -11,7 +11,7 @@ import com.example.jdbcdemo.domain.Person;
 public class PersonManagerTest {
 	
 	
-	PersonManager personManager = new PersonManager();
+	PersonManagerJDBC personManager = new PersonManagerJDBC();
 	
 	private final static String NAME_1 = "Zenek";
 	private final static int YOB_1 = 1945;
