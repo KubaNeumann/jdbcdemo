@@ -8,5 +8,8 @@ public interface PersonManager {
 	
 	public int addPerson(Person person);
 	public List<Person> getAllPersons();
+	
+	/* batch insert - transactional */
+	public void addAllPersons(List<Person> persons);
 
 }
